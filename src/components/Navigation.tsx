@@ -1,7 +1,7 @@
 import '../App.css';
 import React, { useContext, useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import avatar from '../img/avatar.jpg';
+import avatar from '../img/avatar.';
 import { signout, sun, moon } from '../help/icons';
 import { menuItems } from '../help/menuitems';
 import { AuthContext } from '../context/AuthContext';
