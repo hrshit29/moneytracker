@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+/* Light theme (white & pink) */
+.light {
+  --bg-color: #ffffff;
+  --card-color: #ffe4ec;
+  --text-color: #111111;
+  --accent-color: #ec4899;
+}
+
+/* Dark theme (black & pink) */
+.dark {
+  --bg-color: #000000;
+  --card-color: #3f0d1e;
+  --text-color: #f9fafb;
+  --accent-color: #ec4899;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.card {
+  background-color: var(--card-color);
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: white;
+}
